@@ -84,18 +84,6 @@ smart_parental_control_app/
 3. Add Android apps (both parent and child) and download `google-services.json`.
 4. Place `google-services.json` in each app's `android/app/` directory.
 
-### Run App
-```bash
-# For Parent App
-cd parent_app
-flutter pub get
-flutter run
-
-# For Child App
-cd child_app
-flutter pub get
-flutter run
-
 Highlights
 Promotes safe and healthy digital habits
 
@@ -121,3 +109,17 @@ Browser Plugin for Web Filtering
 
 
 This project is under the CSRC - ANNA UNIVERSITY Student innovative project 2024-2025
+
+### Run App
+```bash
+# For Parent App
+cd parent_app
+flutter pub get
+flutter run
+
+# For Child App
+cd child_app
+flutter pub get
+flutter run
+
+
